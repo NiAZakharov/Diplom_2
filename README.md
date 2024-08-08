@@ -1,23 +1,23 @@
 # Diplom_2
 
 ##Учебный проект от Яндекс Практикума
-##7 Спринт - Тестирование REST API методов
+##10 Спринт - Тестирование REST API методов
 
 ## Запуск тестов
 Запустить все тесты
 > mvn clean test
 
 Запустить тесты определенного класса
-> mvn clean test -Dtest=LoginCourierTest
+> mvn clean test -Dtest=AuthUserTest
 
 Запустить конкретный тест
-> mvn clean test -Dtest=LoginCourierTest#courierLoginWithEmptyPassTest
+> mvn clean test -Dtest=AuthUserTest#userCanLoginTest
 
 Запустить тест + сгенерировать отчет
-> mvn clean test -Dtest=LoginCourierTest#courierLoginWithEmptyPassTest allure:report
+> mvn clean test -Dtest=AuthUserTest#userCanLoginTest allure:report
 
 Запустить тест + сгенерировать и захостить отчет
-> mvn clean test -Dtest=LoginCourierTest#courierLoginWithEmptyPassTest allure:serve
+> mvn clean test -Dtest=AuthUserTest#userCanLoginTest allure:serve
 
 ## Используемый стек
 | Инструмент  | Версия |

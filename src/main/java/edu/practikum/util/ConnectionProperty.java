@@ -18,5 +18,6 @@ public class ConnectionProperty {
     private String userRegisterPath;
     private String userGetPatchPath;
     private String userLoginPath;
+    private String orderPath;
 
 }

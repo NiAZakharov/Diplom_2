@@ -5,7 +5,9 @@ import edu.practikum.dto.user.User;
 import edu.practikum.dto.user.UserResponse;
 import edu.practikum.util.BaseScenario;
 import io.qameta.allure.Description;
+import io.restassured.response.Response;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -14,7 +16,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.Locale;
 import java.util.stream.Stream;
 
-import static io.restassured.RestAssured.given;
 import static org.apache.http.HttpStatus.SC_FORBIDDEN;
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.apache.http.HttpStatus.SC_UNAUTHORIZED;
@@ -25,19 +26,18 @@ import static org.hamcrest.Matchers.equalTo;
 @DisplayName("Редактирование пользователя")
 public class EditUserTest extends BaseScenario {
 
-    //    private final static String API_PATH = "/auth/user"; //PATCH
     private final static String API_PATH = CONNECTION_PROPERTIES.getUserGetPatchPath();
     private final static Faker FAKER = new Faker(new Locale("ru_Ru", "RU"));
 
     private final static String AUTH_HEADER_NAME = "Authorization";
     private final static String EXP_MESSAGE = "jwt expired";
     private final static String NON_AUTHORIZED_MESSAGE = "You should be authorised";
-
     private final static String EXPIRE_TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9." +
             "eyJpZCI6IjY2YjJhYTg1OWVkMjgwMDAxYjQ4NjFhMiIsImlhdCI6MTcyMjk4NTA5MywiZXhwIjoxNzIyOTg2MjkzfQ." +
             "JqmB9TkYxaxqx4X-2NrEvVGU8aSTrhxIIo6B9ms1w68";
 
     private String token;
+    private Response responseBefore;
 
     /*
     Тут указан набор данных которые будут подставляться в PATCH
@@ -81,8 +81,15 @@ public class EditUserTest extends BaseScenario {
     @BeforeEach
     public void getActiveToken() {
         //Создадим стандартного пользователя и сразу получим его токен. Т.к. больше этот user в тесте не нужен
-        token = createUniqueUser().getHeader("Authorization");
+        responseBefore = createUniqueUser();
+        token = responseBefore.getHeader("Authorization");
     }
+
+    @AfterEach
+    public void deleteUser() {
+        deleteUser(responseBefore);
+    }
+
 
     @ParameterizedTest(name = "Редактирование пользователя {index}")
     @DisplayName("Редактирование пользователя")

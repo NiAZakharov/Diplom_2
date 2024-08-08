@@ -27,6 +27,7 @@ public class PropertyLoader {
         connectionProperties.setUserRegisterPath(properties.getProperty("userRegisterPath"));
         connectionProperties.setUserGetPatchPath(properties.getProperty("userGetPatchPath"));
         connectionProperties.setUserLoginPath(properties.getProperty("userLoginPath"));
+        connectionProperties.setOrderPath(properties.getProperty("orderPath"));
 
         return connectionProperties;
     }

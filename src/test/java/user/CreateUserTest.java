@@ -7,6 +7,8 @@ import edu.practikum.util.BaseScenario;
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -31,6 +33,8 @@ public class CreateUserTest extends BaseScenario {
     private final static String FAIL_MESSAGE = "Email, password and name are required fields";
     private final static String CONFLICT_MESSAGE = "User already exists";
     private final static Faker FAKER = new Faker(new Locale("ru_Ru", "RU"));
+
+    private Response responseBefore;
 
     static Stream<User> userErrorProvider() {
         return Stream.of(
@@ -59,6 +63,16 @@ public class CreateUserTest extends BaseScenario {
         );
     }
 
+    @BeforeEach
+    public void createUserAndGetResp() {
+        responseBefore = createUniqueUser();
+    }
+
+    @AfterEach
+    public void deleteUser() {
+        deleteUser(responseBefore);
+    }
+
     @Test
     @DisplayName("Успешное создание пользователя")
     @Description("Создание пользователя и проверка ответа метода")
@@ -66,11 +80,10 @@ public class CreateUserTest extends BaseScenario {
 
         //Тут использую 2 объекта, потому что в первом есть нужный статус код
         //А второй позволяет не использовать jsonPath и искать по конкретным ключам
-        Response response = createUniqueUser();
-        UserResponse userResponse = response.getBody().as(UserResponse.class);
+        UserResponse userResponse = responseBefore.getBody().as(UserResponse.class);
 
         //проверили статус код
-        assertThat("Статус код не соответствует ожидаемому", SC_OK, equalTo(response.getStatusCode()));
+        assertThat("Статус код не соответствует ожидаемому", SC_OK, equalTo(responseBefore.getStatusCode()));
         //проверили тело ответа
         assertThat("Флаг пришел false", true, equalTo(userResponse.isSuccess()));
         assertThat("Токен не получен", userResponse.getAccessToken(), not(blankOrNullString()));
@@ -83,7 +96,7 @@ public class CreateUserTest extends BaseScenario {
     public void createDopplerUserTest() {
 
         //Тут создали нового пользователя и положили ответ сразу в объект, чтобы потом создать с такими же параметрами
-        UserResponse userResponse = createUniqueUser().getBody().as(UserResponse.class);
+        UserResponse userResponse = responseBefore.getBody().as(UserResponse.class);
 
         User newUser = User
                 .builder()
@@ -92,9 +105,9 @@ public class CreateUserTest extends BaseScenario {
                 .name(userResponse.getUser().getName())
                 .build();
 
-        Response response = sendPostRequest("Вызов метода создания пользователя", newUser, API_PATH);
+        Response responseDoppler = sendPostRequest("Вызов метода создания пользователя", newUser, API_PATH);
 
-        checkEasyResponse(response, SC_FORBIDDEN, "success", "message", false,
+        checkEasyResponse(responseDoppler, SC_FORBIDDEN, "success", "message", false,
                 CONFLICT_MESSAGE, "Проверка ответа при создании дубля");
     }
 
@@ -104,11 +117,10 @@ public class CreateUserTest extends BaseScenario {
     @MethodSource("userErrorProvider")
     public void createWithoutPasswordUserTest(User user) {
 
-        Response response = sendPostRequest("Вызов метода создания пользователя", user, API_PATH);
+        Response responseWrong = sendPostRequest("Вызов метода создания пользователя", user, API_PATH);
 
-        checkEasyResponse(response, SC_FORBIDDEN, "message",
+        checkEasyResponse(responseWrong, SC_FORBIDDEN, "message",
                 FAIL_MESSAGE, "Проверка негативного ответа");
     }
-
 
 }
