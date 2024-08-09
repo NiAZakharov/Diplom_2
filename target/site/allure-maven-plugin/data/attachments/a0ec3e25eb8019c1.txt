@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"артем.николаев@yahoo.com","name":"ульяна.цветков"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDk4OWVkMjgwMDAxYjQ4ODkyMiIsImlhdCI6MTcyMzIxMTkyOCwiZXhwIjoxNzIzMjEzMTI4fQ.ZCygwE2bW5oGzBIhIXbEB-TAdx612XMnR8shxYiDDWc","refreshToken":"c675623a08332e2de105f4ba6af14507e3380faefd85ac3aa64ca1d0604fc650e0061e29b4b19fff"}

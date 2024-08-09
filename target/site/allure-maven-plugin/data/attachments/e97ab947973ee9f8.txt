@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"илья.носкова@ya.ru","name":"алексей.силин"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDgxOWVkMjgwMDAxYjQ4ODkwMyIsImlhdCI6MTcyMzIxMTkwNSwiZXhwIjoxNzIzMjEzMTA1fQ.3C2ylhab_24mxmTOmGKIcgbJePB1uo5Q2nodcsJ2rSo","refreshToken":"726e0968a65329ff62ca7e84aa4636ac5d53b8e0b66a1981909ff7743df5375ab6ff8513f2459808"}

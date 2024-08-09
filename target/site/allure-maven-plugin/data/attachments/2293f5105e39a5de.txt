@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"людмила.кононов@ya.ru","name":"станислав.силина"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMGEyOWVkMjgwMDAxYjQ4ODkzMCIsImlhdCI6MTcyMzIxMTkzOSwiZXhwIjoxNzIzMjEzMTM5fQ.lnwZH_BUHIYfZNp3l5Sii6yj1OvD2i_3ZgV1Hm1X9ss","refreshToken":"a835b05647a0ffb59ab3ea3747e902c81eb96f9af6fc7c3b16e9f40389a310784c0b0ef20e618b8f"}

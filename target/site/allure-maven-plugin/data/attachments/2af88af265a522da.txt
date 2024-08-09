@@ -1,0 +1,1 @@
+{"success":true,"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDgzOWVkMjgwMDAxYjQ4ODkwNSIsImlhdCI6MTcyMzIxMTkwNywiZXhwIjoxNzIzMjEzMTA3fQ.H_ssfu0HPHyWxzI_BTCT2YFcQxFYDli-AcSCl0prugU","refreshToken":"de933397fb07d814ee43166a8d66a8fbf8cf2eb34d4d4b8baa3e1a91be523eb9c3089ad2f5113efc","user":{"email":"нина.бобров@ya.ru","name":"алла.белоусов"}}

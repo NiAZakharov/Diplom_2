@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"лариса.гуляева@yahoo.com","name":"станислав.королев"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDg0OWVkMjgwMDAxYjQ4ODkwOCIsImlhdCI6MTcyMzIxMTkwOCwiZXhwIjoxNzIzMjEzMTA4fQ.DdZRvQJVsYJNnuZg1P8mtguBT3MxNKKo_EnwOoZM96Y","refreshToken":"958c33b1906910fdb30edc0a9c7f57649fa57c2e121983ea50f04ddc5c6898fb15b95cc718775df9"}

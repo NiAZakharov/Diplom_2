@@ -1,0 +1,339 @@
+{
+  "uid" : "918591f3278ca4ed",
+  "name" : "Попытка создать заказ с существующим ингредиентом",
+  "fullName" : "order.CreateOrderTest.createOrderWithWrongIngredientTest",
+  "historyId" : "1f8af9a5842b66b5c2e6c2c73cced29d",
+  "time" : {
+    "start" : 1723211912256,
+    "stop" : 1723211913867,
+    "duration" : 1611
+  },
+  "description" : "Создание заказа с существующим ингредиентом",
+  "descriptionHtml" : "<p>Создание заказа с существующим ингредиентом</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getActiveToken",
+    "time" : {
+      "start" : 1723211912256,
+      "stop" : 1723211912741,
+      "duration" : 485
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание нового уникального пользователя",
+      "time" : {
+        "start" : 1723211912257,
+        "stop" : 1723211912739,
+        "duration" : 482
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вызов метода создания пользователя",
+        "time" : {
+          "start" : 1723211912257,
+          "stop" : 1723211912739,
+          "duration" : 482
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4db949c73b8f590f",
+          "name" : "Request Method",
+          "source" : "4db949c73b8f590f.txt",
+          "type" : "text/plain",
+          "size" : 4
+        }, {
+          "uid" : "b7ca439d50816494",
+          "name" : "Request URI",
+          "source" : "b7ca439d50816494.txt",
+          "type" : "text/plain",
+          "size" : 59
+        }, {
+          "uid" : "59d8da5ea7d748a0",
+          "name" : "Request Headers",
+          "source" : "59d8da5ea7d748a0.txt",
+          "type" : "text/plain",
+          "size" : 105
+        }, {
+          "uid" : "47a542bbb068be1d",
+          "name" : "Request Body",
+          "source" : "47a542bbb068be1d.txt",
+          "type" : "text/plain",
+          "size" : 106
+        }, {
+          "uid" : "248f6af2f45d6a3b",
+          "name" : "Response Status Code",
+          "source" : "248f6af2f45d6a3b.txt",
+          "type" : "text/plain",
+          "size" : 3
+        }, {
+          "uid" : "32250ab94e32f931",
+          "name" : "Response Headers",
+          "source" : "32250ab94e32f931.txt",
+          "type" : "text/plain",
+          "size" : 877
+        }, {
+          "uid" : "322e0684e39a25bf",
+          "name" : "Response Body",
+          "source" : "322e0684e39a25bf.txt",
+          "type" : "text/plain",
+          "size" : 399
+        } ],
+        "parameters" : [ {
+          "name" : "promt",
+          "value" : "Вызов метода создания пользователя"
+        }, {
+          "name" : "obj",
+          "value" : "User(email=степан.афанасьев@yandex.ru, password=akkkohgol6, name=егор.мишин, createdAt=null, updatedAt=null)"
+        }, {
+          "name" : "urlPath",
+          "value" : "/auth/register"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 7,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 7,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 2,
+    "hasContent" : true
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1723211903508,
+      "stop" : 1723211904425,
+      "duration" : 917
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Создание заказа с существующим ингредиентом",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создаем бургер",
+      "time" : {
+        "start" : 1723211912741,
+        "stop" : 1723211913146,
+        "duration" : 405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "60a78efcb64c06c",
+        "name" : "Request Method",
+        "source" : "60a78efcb64c06c.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "92aa145e155c943a",
+        "name" : "Request URI",
+        "source" : "92aa145e155c943a.txt",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "c0311b50c0335628",
+        "name" : "Request Headers",
+        "source" : "c0311b50c0335628.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "5de21ce1a7639c75",
+        "name" : "Request Body",
+        "source" : "5de21ce1a7639c75.txt",
+        "type" : "text/plain",
+        "size" : 75
+      }, {
+        "uid" : "62106dea91442a5c",
+        "name" : "Response Status Code",
+        "source" : "62106dea91442a5c.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "33ba253e714a7b26",
+        "name" : "Response Headers",
+        "source" : "33ba253e714a7b26.txt",
+        "type" : "text/plain",
+        "size" : 692
+      }, {
+        "uid" : "9b2cc1ec7c214733",
+        "name" : "Response Body",
+        "source" : "9b2cc1ec7c214733.txt",
+        "type" : "text/plain",
+        "size" : 148
+      } ],
+      "parameters" : [ {
+        "name" : "promt",
+        "value" : "Создаем бургер"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDc4OWVkMjgwMDAxYjQ4ODhmYSIsImlhdCI6MTcyMzIxMTg5NiwiZXhwIjoxNzIzMjEzMDk2fQ.4kiAZr7fspX9Wr3lO4HKypV05L_qwUTxEMNo9B7I8aY"
+      }, {
+        "name" : "obj",
+        "value" : "IngredientBody(ingredients=[FF61c0c5a71d1f82001bdaaa6d, FF61c0c5a71d1f82001bdaaa6f])"
+      }, {
+        "name" : "urlPath",
+        "value" : "/orders"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 7,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "deleteUser",
+    "time" : {
+      "start" : 1723211913172,
+      "stop" : 1723211913866,
+      "duration" : 694
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Удаление пользователя/Очистка данных",
+      "time" : {
+        "start" : 1723211913172,
+        "stop" : 1723211913866,
+        "duration" : 694
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc7aa01dcb4f66a",
+        "name" : "Request Method",
+        "source" : "cc7aa01dcb4f66a.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "e73c8d05753c4a45",
+        "name" : "Request URI",
+        "source" : "e73c8d05753c4a45.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "23ee8d48fb6b045c",
+        "name" : "Request Headers",
+        "source" : "23ee8d48fb6b045c.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "1a954859f089946d",
+        "name" : "Request Body",
+        "source" : "1a954859f089946d.txt",
+        "type" : "text/plain",
+        "size" : 82
+      }, {
+        "uid" : "6799d995715d7173",
+        "name" : "Response Status Code",
+        "source" : "6799d995715d7173.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "a05fb6ef8acbf156",
+        "name" : "Response Headers",
+        "source" : "a05fb6ef8acbf156.txt",
+        "type" : "text/plain",
+        "size" : 651
+      }, {
+        "uid" : "49f0e7ab1a3f796d",
+        "name" : "Response Body",
+        "source" : "49f0e7ab1a3f796d.txt",
+        "type" : "text/plain",
+        "size" : 54
+      } ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@c22cf4d"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 7,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1723211913869,
+      "stop" : 1723211913869,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0SPD60R3"
+  }, {
+    "name" : "thread",
+    "value" : "11332@LAPTOP-0SPD60R3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "order.CreateOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "order.CreateOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithWrongIngredientTest"
+  }, {
+    "name" : "suite",
+    "value" : "Создание заказа"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "918591f3278ca4ed.json",
+  "parameterValues" : [ ]
+}

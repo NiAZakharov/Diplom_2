@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"светлана.исакова@yandex.ru","name":"геннадий.баранова"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDk3OWVkMjgwMDAxYjQ4ODkyMCIsImlhdCI6MTcyMzIxMTkyNywiZXhwIjoxNzIzMjEzMTI3fQ.KxzvXnKwMVyu42jcS0i4zPt39eekcQS6su8z27uCnXA","refreshToken":"dd8e76913c26ad08ebb3c51d34f64c2380ac923c110c8ad1b47e6fb6c71a8f88a91d6d37be7ee96e"}

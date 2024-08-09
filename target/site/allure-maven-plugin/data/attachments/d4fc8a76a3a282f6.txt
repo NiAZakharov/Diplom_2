@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"виктория.бирюков@gmail.com","name":"вера.соколова"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMGExOWVkMjgwMDAxYjQ4ODkyZSIsImlhdCI6MTcyMzIxMTkzNywiZXhwIjoxNzIzMjEzMTM3fQ.3CW-vIaMq-hRDXnm_dndekkD7ftRnrzSUyt6pXEIgY0","refreshToken":"8c18db409886a79d16c24b1167fc649a6b7073af5c7f8e0055f38af19ed4856378b2886302d4191d"}

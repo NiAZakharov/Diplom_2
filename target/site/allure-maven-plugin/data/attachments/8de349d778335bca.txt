@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"виктория.овчинников@hotmail.com","name":"арина.лукина"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMGE5OWVkMjgwMDAxYjQ4ODkzOCIsImlhdCI6MTcyMzIxMTk0NSwiZXhwIjoxNzIzMjEzMTQ1fQ.kL_8qY6MfJh-ZHDvddEXsJF9_39ArPY90uj4FIp8F1k","refreshToken":"4d32e6bd7376a3ed2b6e3e87430350930a41f8cae8c7ab704cfaa08f35afec8b1176877c8da221b9"}

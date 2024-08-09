@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"даниил.потапова@mail.ru","name":"маргарита.колобова"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDllOWVkMjgwMDAxYjQ4ODkyYSIsImlhdCI6MTcyMzIxMTkzNCwiZXhwIjoxNzIzMjEzMTM0fQ.Sl9JPJZPwaoNdp9uLivstAmXKwGl5OA4sEVBKsp8m0E","refreshToken":"72eff967d80aed9a71f1aacfc316c433308d06183fcde535dd663e98d103e64ff397db0224588780"}

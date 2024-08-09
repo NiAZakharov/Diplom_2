@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"денис.носкова@yandex.ru","name":"нина.николаев"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDg2OWVkMjgwMDAxYjQ4ODkwYSIsImlhdCI6MTcyMzIxMTkxMCwiZXhwIjoxNzIzMjEzMTEwfQ.X7Voyq9nSJIuVE-siCDr1lsQ2_DRwQeBzB7YJTitc68","refreshToken":"db1a6af85ad293d5c03d17360e314f5c88e55ca9a77324c61787907cc687f9d06b0f948922c0e35f"}

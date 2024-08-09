@@ -1,0 +1,1 @@
+https://stellarburgers.nomoreparties.site/api/auth/user
