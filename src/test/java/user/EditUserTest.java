@@ -29,7 +29,6 @@ public class EditUserTest extends BaseScenario {
     private final static String API_PATH = CONNECTION_PROPERTIES.getUserGetPatchPath();
     private final static Faker FAKER = new Faker(new Locale("ru_Ru", "RU"));
 
-    private final static String AUTH_HEADER_NAME = "Authorization";
     private final static String EXP_MESSAGE = "jwt expired";
     private final static String NON_AUTHORIZED_MESSAGE = "You should be authorised";
     private final static String EXPIRE_TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9." +
@@ -80,7 +79,7 @@ public class EditUserTest extends BaseScenario {
 
     @BeforeEach
     public void getActiveToken() {
-        //Создадим стандартного пользователя и сразу получим его токен. Т.к. больше этот user в тесте не нужен
+        //Создадим стандартного пользователя и сразу получим его токен
         responseBefore = createUniqueUser();
         token = responseBefore.getHeader("Authorization");
     }
@@ -98,7 +97,7 @@ public class EditUserTest extends BaseScenario {
     public void editUserWithTokenTest(User patchUser) {
 
         UserResponse userResponse = sendPathUserRequest("Отправка PATH Запроса с токеном",
-                AUTH_HEADER_NAME, token, patchUser, API_PATH, SC_OK);
+                token, patchUser, API_PATH, SC_OK);
 
         //Тут проверяем что в ответе метода вернулось то, что мы передали
         assertThat(true, equalTo(userResponse.isSuccess()));
@@ -114,7 +113,7 @@ public class EditUserTest extends BaseScenario {
     public void editUserWithoutTokenTest(User patchUser) {
 
         UserResponse userResponse = sendPathUserRequest("Отправка PATH Запроса без токена",
-                AUTH_HEADER_NAME, "", patchUser, API_PATH, SC_UNAUTHORIZED);
+                "", patchUser, API_PATH, SC_UNAUTHORIZED);
 
         //Тут проверяем что в ответе метода вернулось то, что мы передали
         assertThat(false, equalTo(userResponse.isSuccess()));
@@ -128,7 +127,7 @@ public class EditUserTest extends BaseScenario {
     public void editUserWithExpTokenTest(User patchUser) {
 
         UserResponse userResponse = sendPathUserRequest("Отправка PATH Запроса с просроченным токеном",
-                AUTH_HEADER_NAME, EXPIRE_TOKEN, patchUser, API_PATH, SC_FORBIDDEN);
+                EXPIRE_TOKEN, patchUser, API_PATH, SC_FORBIDDEN);
 
         //Тут проверяем что в ответе метода вернулось то, что мы передали
         assertThat(false, equalTo(userResponse.isSuccess()));

@@ -4,16 +4,21 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class OrderResponse {
+public class OrderForUserResponse {
     private boolean success;
-    private String name;
-    private Order order;
-    private String message;
+    private List<OrderLight> orders;
+    @EqualsAndHashCode.Exclude
+    private Integer total;
+    @EqualsAndHashCode.Exclude
+    private Integer totalToday;
 }

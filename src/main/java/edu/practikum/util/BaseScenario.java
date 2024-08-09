@@ -1,6 +1,5 @@
 package edu.practikum.util;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;
 import edu.practikum.dto.user.User;
 import edu.practikum.dto.user.UserResponse;
@@ -11,17 +10,13 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import lombok.extern.slf4j.Slf4j;
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 
-import java.util.HashMap;
 import java.util.Locale;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.startsWith;
 
 @Slf4j
 public class BaseScenario {
@@ -31,8 +26,6 @@ public class BaseScenario {
     private final static Faker faker = new Faker(new Locale("ru_Ru", "RU"));
 
     protected static RequestSpecification requestSpecification;
-    private final ObjectMapper objectMapper = new ObjectMapper();
-
 
     @BeforeAll
     public static void setUp() {
@@ -46,7 +39,6 @@ public class BaseScenario {
 
         RestAssured.requestSpecification = requestSpecification;
     }
-
 
     @AfterAll
     public static void tearDown() {
@@ -82,11 +74,11 @@ public class BaseScenario {
     }
 
     @Step(value = "{0}")
-    public UserResponse sendPathUserRequest(String promt, String header, String headerValue, Object obj,
+    public UserResponse sendPathUserRequest(String promt, String token, Object obj,
                                             String urlPath, Integer statusCode) {
         return given()
                 .when()
-                .header(header, headerValue)
+                .header("Authorization", token)
                 .body(obj)
                 .patch(urlPath)
                 .then()
@@ -96,9 +88,9 @@ public class BaseScenario {
     }
 
     @Step(value = "{0}")
-    public Response sendEasyGetRequest(String promt, String urlPath, HashMap<String, String> params) {
+    public Response sendEasyGetRequest(String promt, String token, String urlPath) {
         return given()
-                .params(params)
+                .header("Authorization", token)
                 .when()
                 .get(urlPath);
     }
@@ -128,18 +120,7 @@ public class BaseScenario {
                 .assertThat().body(bodySingleKey, equalTo(expectedValue));
     }
 
-    @Step(value = "{4}")
-    public void checkEasyResponse(Response response, int expectedStatusCode,
-                                  String bodySingleKey, Boolean expectedValue, String allurePromt) {
-        log.info(response.prettyPrint());
-        logResponseToAllure(response);
-        response.then()
-                .statusCode(expectedStatusCode)
-                .and()
-                .assertThat().body(bodySingleKey, equalTo(expectedValue));
-    }
-
-    @Step(value = "{4}")
+    @Step(value = "expectedStatusCode {1}")
     public void checkEasyResponse(Response response, int expectedStatusCode,
                                   String bodySingleKey1, String bodySingleKey2, Boolean expectedValue1,
                                   String expectedValue2, String allurePromt) {
@@ -150,17 +131,6 @@ public class BaseScenario {
                 .body(bodySingleKey1, equalTo(expectedValue1))
                 .and()
                 .body(bodySingleKey2, equalTo(expectedValue2));
-    }
-
-    @Step(value = "{4}")
-    public void checkEasyResponse(Response response, int expectedStatusCode,
-                                  String bodySingleKey, String allurePromt) {
-        log.info(response.prettyPrint());
-        logResponseToAllure(response);
-        response.then()
-                .statusCode(expectedStatusCode)
-                .and()
-                .assertThat().body(bodySingleKey, Matchers.any(Integer.class));
     }
 
     @Step(value = "Удаление пользователя/Очистка данных")

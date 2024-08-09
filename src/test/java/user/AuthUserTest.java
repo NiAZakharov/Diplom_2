@@ -39,7 +39,7 @@ public class AuthUserTest extends BaseScenario {
                 .name(FAKER.name().username())
                 .build();
 
-         responseBefore =
+        responseBefore =
                 sendPostRequest("Вызов метода создания пользователя", userBefore, CONNECTION_PROPERTIES.getUserRegisterPath());
     }
 
@@ -69,8 +69,8 @@ public class AuthUserTest extends BaseScenario {
 
         //проверили тело ответа
         assertThat("Флаг пришел false", true, equalTo(userResponse.isSuccess()));
-        assertThat("Email не совпадает",newUser.getEmail(), equalTo(userResponse.getUser().getEmail()));
-        assertThat("Имя не совпадает",newUser.getName(), equalTo(userResponse.getUser().getName()));
+        assertThat("Email не совпадает", newUser.getEmail(), equalTo(userResponse.getUser().getEmail()));
+        assertThat("Имя не совпадает", newUser.getName(), equalTo(userResponse.getUser().getName()));
         assertThat("Токен не получен", userResponse.getAccessToken(), not(blankOrNullString()));
         assertThat("Полученный токен не валиден", userResponse.getAccessToken(), startsWith("Bearer"));
 
@@ -94,7 +94,7 @@ public class AuthUserTest extends BaseScenario {
         //проверили статус код
         assertThat("Статус код не соответствует ожидаемому", SC_UNAUTHORIZED, equalTo(response.getStatusCode()));
         assertThat("Флаг пришел false", false, equalTo(userResponse.isSuccess()));
-        assertThat("Email не совпадает",ERROR_MESSAGE, equalTo(userResponse.getMessage()));
+        assertThat("Email не совпадает", ERROR_MESSAGE, equalTo(userResponse.getMessage()));
     }
 
 
@@ -110,7 +110,7 @@ public class AuthUserTest extends BaseScenario {
         //проверили статус код
         assertThat("Статус код не соответствует ожидаемому", SC_UNAUTHORIZED, equalTo(response.getStatusCode()));
         assertThat("Флаг пришел false", false, equalTo(userResponse.isSuccess()));
-        assertThat("Email не совпадает",ERROR_MESSAGE, equalTo(userResponse.getMessage()));
+        assertThat("Email не совпадает", ERROR_MESSAGE, equalTo(userResponse.getMessage()));
     }
 
     @Test
@@ -126,7 +126,7 @@ public class AuthUserTest extends BaseScenario {
         //проверили статус код
         assertThat("Статус код не соответствует ожидаемому", SC_UNAUTHORIZED, equalTo(response.getStatusCode()));
         assertThat("Флаг пришел false", false, equalTo(userResponse.isSuccess()));
-        assertThat("Email не совпадает",ERROR_MESSAGE, equalTo(userResponse.getMessage()));
+        assertThat("Email не совпадает", ERROR_MESSAGE, equalTo(userResponse.getMessage()));
     }
 
 }
