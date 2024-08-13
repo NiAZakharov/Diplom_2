@@ -1,0 +1,15 @@
+Date=Fri, 09 Aug 2024 13:58:12 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDc0OWVkMjgwMDAxYjQ4ODhmMiIsImlhdCI6MTcyMzIxMTg5MiwiZXhwIjoxNzIzMjEzMDkyfQ.gp2btZwC-qnX-MXLF4Jwy928QGIDklCY_FBt6DvZY8A
+ETag=W/"199-WjzXGP2NFv2gwZXpM7kahtMuIBg"
+CF-Cache-Status=DYNAMIC
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=UAkO%2BLh73Wfi6JE%2Fn85TyyZbdj%2BVuhZtr%2F0%2FugsKAGmSsXpoChmbFq9w%2FcuDqCldta8Zoy0SHQi0mEGBbgXE5qSjkwtt2fOKM5DD2CPpWAxiZxKCqsN1hjYYrY93Cpyf6yQoSg2qN%2F5cIxRzSksYQ87hrnQ%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+CF-RAY=8b084275ffaea043-FRA
+Content-Encoding=gzip
+alt-svc=h3=":443"; ma=86400

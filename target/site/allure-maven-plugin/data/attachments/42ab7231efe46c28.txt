@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"клавдия.фокина@gmail.com","name":"андрей.васильева"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDhmOWVkMjgwMDAxYjQ4ODkxNiIsImlhdCI6MTcyMzIxMTkxOSwiZXhwIjoxNzIzMjEzMTE5fQ.9UwS08_ujbigg2hCZFbC1Qp3Pzd7iQ7SAb47uMuPa3g","refreshToken":"cdb2b93ce3bb20b9720ee9a882e3a3dc5548e6083362388e114def53eb1a3ec5e22d6f34538653d3"}

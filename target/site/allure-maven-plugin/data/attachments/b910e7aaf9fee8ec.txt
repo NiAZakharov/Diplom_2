@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"надежда.герасимова@mail.ru","name":"артём.зыкова"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDc3OWVkMjgwMDAxYjQ4ODhmOCIsImlhdCI6MTcyMzIxMTg5NSwiZXhwIjoxNzIzMjEzMDk1fQ.qFgyes3cIZ7oFn9rAyon2dajvGimRkbWmScjNnQr_aE","refreshToken":"82169bd6d53524d6f5b4d96e9acafdf087b3e61aeb050cae80d19a82fa37281010f3d4aeb36f186d"}

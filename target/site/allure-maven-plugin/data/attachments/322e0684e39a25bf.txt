@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"степан.афанасьев@yandex.ru","name":"егор.мишин"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDc4OWVkMjgwMDAxYjQ4ODhmYSIsImlhdCI6MTcyMzIxMTg5NiwiZXhwIjoxNzIzMjEzMDk2fQ.4kiAZr7fspX9Wr3lO4HKypV05L_qwUTxEMNo9B7I8aY","refreshToken":"d2fd86ce5db2a10992ff6e221d8601fe9f182f192ca7e5ddda421d7924e8546d4d39df8c7c021587"}

@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"валерия.третьяков@ya.ru","name":"александра.блохина"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMGE2OWVkMjgwMDAxYjQ4ODkzNCIsImlhdCI6MTcyMzIxMTk0MiwiZXhwIjoxNzIzMjEzMTQyfQ._x4M9hwpHjc3BBnv3PbtHx2EftZNoMFCZ8Dz50qxB8o","refreshToken":"a0ee4d79a5eece9482655cbe02cb176b1f7edb81ef9b498f2140cc550d386d0b4fa4cb2c11a4a19f"}

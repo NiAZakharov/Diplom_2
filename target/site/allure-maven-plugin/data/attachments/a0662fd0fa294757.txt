@@ -1,0 +1,3 @@
+Accept=application/json, application/javascript, text/javascript, text/json
+Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDkxOWVkMjgwMDAxYjQ4ODkxOCIsImlhdCI6MTcyMzIxMTkyMSwiZXhwIjoxNzIzMjEzMTIxfQ.6ofQxQvAsYZ01fhGIG5QYHnzu8gp3TsKG47-H571k6E
+Content-Type=application/json

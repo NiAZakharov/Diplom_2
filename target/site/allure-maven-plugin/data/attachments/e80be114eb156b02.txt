@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"андреи.михеева@yandex.ru","name":"валерий.корнилов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDdkOWVkMjgwMDAxYjQ4ODhmZiIsImlhdCI6MTcyMzIxMTkwMSwiZXhwIjoxNzIzMjEzMTAxfQ.lNogTUfKkpQfjVeWexTcMWvfxS7p9Sm6nh5aNTWJnZ0","refreshToken":"b428a40d138eb12516a712cbf1c225ce8b90f9444bec0de8b37722e0fb9e60b5babf56e2ad549817"}

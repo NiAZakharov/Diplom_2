@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"ульяна.елисеева@ya.ru","name":"светлана.ильина"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDdhOWVkMjgwMDAxYjQ4ODhmYyIsImlhdCI6MTcyMzIxMTg5OCwiZXhwIjoxNzIzMjEzMDk4fQ.vvEC-BmjJxx-ts2b4JEb6Mij_1FhFksgaOzMDrsW02c","refreshToken":"f7005ffbd6eefa16ee9e2a40c129f6515d072fa9727cca4340fcbf8219e99264333f41b927c3ea95"}

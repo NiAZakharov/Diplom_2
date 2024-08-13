@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"зоя.рогов@hotmail.com","name":"таисия.наумов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDljOWVkMjgwMDAxYjQ4ODkyOCIsImlhdCI6MTcyMzIxMTkzMiwiZXhwIjoxNzIzMjEzMTMyfQ.CAZOiYM0CxX4HyTb7R900j-ly_KpXapTj4quaumYH38","refreshToken":"da5006b73111196f2394f17cbfcbe256ede082332a02b76c50ca85b228b8f9b09efa57f334140108"}

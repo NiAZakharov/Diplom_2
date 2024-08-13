@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"леонид.романов@ya.ru","name":"михаил.блинов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDliOWVkMjgwMDAxYjQ4ODkyNiIsImlhdCI6MTcyMzIxMTkzMSwiZXhwIjoxNzIzMjEzMTMxfQ.stgBDzqBySis8bFVDIEgU2vCPxTA3ZvjX8qmrctntU4","refreshToken":"05e242cc140e28a4390558de2829a78045126bb9be84827e9924fa14ae9c74f03918cf25a9032132"}

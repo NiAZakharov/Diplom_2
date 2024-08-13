@@ -1,0 +1,467 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Создание заказа",
+    "children" : [ {
+      "name" : "Создание заказа без авторизации",
+      "uid" : "8e67ea9a7a47a373",
+      "parentUid" : "44ad814326105288ccaad0a02b96a66b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211904463,
+        "stop" : 1723211907779,
+        "duration" : 3316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное создание заказа",
+      "uid" : "f4ee649bc7789dd7",
+      "parentUid" : "44ad814326105288ccaad0a02b96a66b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211907811,
+        "stop" : 1723211910650,
+        "duration" : 2839
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Попытка создать заказ без ингредиента",
+      "uid" : "93cef8828d57fd49",
+      "parentUid" : "44ad814326105288ccaad0a02b96a66b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211910654,
+        "stop" : 1723211912251,
+        "duration" : 1597
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Попытка создать заказ с существующим ингредиентом",
+      "uid" : "918591f3278ca4ed",
+      "parentUid" : "44ad814326105288ccaad0a02b96a66b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211912256,
+        "stop" : 1723211913867,
+        "duration" : 1611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "44ad814326105288ccaad0a02b96a66b"
+  }, {
+    "name" : "Получение заказа",
+    "children" : [ {
+      "name" : "Запрос заказов с авторизацией",
+      "uid" : "9b4b9bd4fba79f35",
+      "parentUid" : "f7cb5326e97f2cac60a38ff3c5b5f8cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211913880,
+        "stop" : 1723211917262,
+        "duration" : 3382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Запрос заказов без авторизации",
+      "uid" : "62a40a293c20f03a",
+      "parentUid" : "f7cb5326e97f2cac60a38ff3c5b5f8cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211917266,
+        "stop" : 1723211919435,
+        "duration" : 2169
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f7cb5326e97f2cac60a38ff3c5b5f8cc"
+  }, {
+    "name" : "Авторизация пользователя",
+    "children" : [ {
+      "name" : "Не успешная авторизация",
+      "uid" : "ccef4bb667e07ee0",
+      "parentUid" : "09b49da87528325d1bd43491cfd3d247",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211919444,
+        "stop" : 1723211921061,
+        "duration" : 1617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Не успешная авторизация",
+      "uid" : "b06b6adcfb978e4",
+      "parentUid" : "09b49da87528325d1bd43491cfd3d247",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211921063,
+        "stop" : 1723211922644,
+        "duration" : 1581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешная авторизация",
+      "uid" : "f9793302efab9015",
+      "parentUid" : "09b49da87528325d1bd43491cfd3d247",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211922647,
+        "stop" : 1723211924250,
+        "duration" : 1603
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Не успешная авторизация",
+      "uid" : "8365bd1db0266b85",
+      "parentUid" : "09b49da87528325d1bd43491cfd3d247",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211924253,
+        "stop" : 1723211925868,
+        "duration" : 1615
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "09b49da87528325d1bd43491cfd3d247"
+  }, {
+    "name" : "Создание пользователя",
+    "children" : [ {
+      "name" : "Создание пользователя с одним из отсутствующих параметров 1",
+      "uid" : "a4c4041a21da3",
+      "parentUid" : "952a40eb6fea93857becb8fec6f0489c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211925903,
+        "stop" : 1723211927509,
+        "duration" : 1606
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя с одним из отсутствующих параметров 2",
+      "uid" : "e47cc8d16d6b678d",
+      "parentUid" : "952a40eb6fea93857becb8fec6f0489c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211927512,
+        "stop" : 1723211929090,
+        "duration" : 1578
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя с одним из отсутствующих параметров 3",
+      "uid" : "1c301b42cdd61676",
+      "parentUid" : "952a40eb6fea93857becb8fec6f0489c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211929093,
+        "stop" : 1723211930526,
+        "duration" : 1433
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя с одним из отсутствующих параметров 4",
+      "uid" : "206b3ac0d0e9d07a",
+      "parentUid" : "952a40eb6fea93857becb8fec6f0489c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211930530,
+        "stop" : 1723211932057,
+        "duration" : 1527
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя с одним из отсутствующих параметров 5",
+      "uid" : "47fbf5aca032b8d9",
+      "parentUid" : "952a40eb6fea93857becb8fec6f0489c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211932060,
+        "stop" : 1723211933570,
+        "duration" : 1510
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя с одним из отсутствующих параметров 6",
+      "uid" : "37d0c48bcc59165a",
+      "parentUid" : "952a40eb6fea93857becb8fec6f0489c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211933573,
+        "stop" : 1723211935204,
+        "duration" : 1631
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя с одним из отсутствующих параметров 7",
+      "uid" : "56dca40f978c6e2e",
+      "parentUid" : "952a40eb6fea93857becb8fec6f0489c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211935208,
+        "stop" : 1723211936810,
+        "duration" : 1602
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное создание пользователя",
+      "uid" : "f63915c8d3a13c99",
+      "parentUid" : "952a40eb6fea93857becb8fec6f0489c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211936813,
+        "stop" : 1723211937960,
+        "duration" : 1147
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Попытка создать существующего пользователя",
+      "uid" : "1fb7bf3d6e28a622",
+      "parentUid" : "952a40eb6fea93857becb8fec6f0489c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211937962,
+        "stop" : 1723211939571,
+        "duration" : 1609
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "952a40eb6fea93857becb8fec6f0489c"
+  }, {
+    "name" : "Редактирование пользователя",
+    "children" : [ {
+      "name" : "Редактирование пользователя с истекшим токеном 1",
+      "uid" : "2a02f3ae48534ce8",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211939589,
+        "stop" : 1723211941161,
+        "duration" : 1572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя с истекшим токеном 2",
+      "uid" : "c685885c9eee5a62",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211941164,
+        "stop" : 1723211942650,
+        "duration" : 1486
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя с истекшим токеном 3",
+      "uid" : "d6afaba6a5703436",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211942653,
+        "stop" : 1723211944042,
+        "duration" : 1389
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя с истекшим токеном 4",
+      "uid" : "615d37a86b2e182",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211944045,
+        "stop" : 1723211945523,
+        "duration" : 1478
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя с истекшим токеном 5",
+      "uid" : "29c412570fb6f458",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211945525,
+        "stop" : 1723211947064,
+        "duration" : 1539
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя без авторизации 1",
+      "uid" : "828508301ad1472",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211947068,
+        "stop" : 1723211948604,
+        "duration" : 1536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя без авторизации 2",
+      "uid" : "4b5c7164abc20b8c",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211948606,
+        "stop" : 1723211949897,
+        "duration" : 1291
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя без авторизации 3",
+      "uid" : "1bc0d5eee8c87acc",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211949899,
+        "stop" : 1723211951471,
+        "duration" : 1572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя без авторизации 4",
+      "uid" : "1129314a66edd273",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211951474,
+        "stop" : 1723211953018,
+        "duration" : 1544
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя без авторизации 5",
+      "uid" : "761f12e0991072c3",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211953021,
+        "stop" : 1723211954551,
+        "duration" : 1530
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя 1",
+      "uid" : "5664a579f796a554",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211954555,
+        "stop" : 1723211956170,
+        "duration" : 1615
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя 2",
+      "uid" : "bbcf21285ac89f28",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211956173,
+        "stop" : 1723211958050,
+        "duration" : 1877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя 3",
+      "uid" : "da221c2b31981fb8",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723211958052,
+        "stop" : 1723211959872,
+        "duration" : 1820
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя 4",
+      "uid" : "49d30bdc915c2d7d",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "failed",
+      "time" : {
+        "start" : 1723211959874,
+        "stop" : 1723211961370,
+        "duration" : 1496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Редактирование пользователя 5",
+      "uid" : "37d1bdc569c1f36f",
+      "parentUid" : "9391f5e796ad2d9a7d9fa2a11b82cb76",
+      "status" : "failed",
+      "time" : {
+        "start" : 1723211961379,
+        "stop" : 1723211962856,
+        "duration" : 1477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9391f5e796ad2d9a7d9fa2a11b82cb76"
+  } ]
+}

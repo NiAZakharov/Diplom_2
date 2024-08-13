@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"римма.никифорова@hotmail.com","name":"виктор.лазарев"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDlmOWVkMjgwMDAxYjQ4ODkyYyIsImlhdCI6MTcyMzIxMTkzNSwiZXhwIjoxNzIzMjEzMTM1fQ.7a-hSa2aMdxsCbblWFxuqQYaqJPqw6HYxtfqk4bg_S8","refreshToken":"321605032b5eabab6a7677f3cd00d79e9115002af72de6e97eccbac67ca23363c23fb4e60c47ff63"}

@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"григории.дьячкова@mail.ru","name":"александр.федотова"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDk5OWVkMjgwMDAxYjQ4ODkyNCIsImlhdCI6MTcyMzIxMTkyOSwiZXhwIjoxNzIzMjEzMTI5fQ.XTWEiG04S-N63nt3qLJG4nXQFu0doybTA2IpnPwboWk","refreshToken":"f83a990c3628e9a0a4db50fc4b354630832ec61d0ea3de16a2f1693ddf1a7442a8231033166e8e7a"}

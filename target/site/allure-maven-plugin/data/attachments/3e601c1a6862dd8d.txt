@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"любовь.буров@hotmail.com","name":"юлия.рябов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDhjOWVkMjgwMDAxYjQ4ODkxMiIsImlhdCI6MTcyMzIxMTkxNiwiZXhwIjoxNzIzMjEzMTE2fQ.iUV8MEmUiZg5xuq0c2SGzkHz9gJ67cs5dEYnfHhfnGs","refreshToken":"16e312f538f8d5a81a07c83e5c2fe4e0822f7ccfbaf854eebb3753f22359a8794d9cd87d83d592a8"}

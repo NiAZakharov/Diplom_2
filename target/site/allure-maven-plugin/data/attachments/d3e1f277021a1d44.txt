@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"юрии.кудрявцев@yahoo.com","name":"аркадий.уварова"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDk1OWVkMjgwMDAxYjQ4ODkxZSIsImlhdCI6MTcyMzIxMTkyNSwiZXhwIjoxNzIzMjEzMTI1fQ.P0PXJH7pjT4D7bsk35gqo8fFlNA85WrFwD0jFNDb7V4","refreshToken":"7f6333f81240f08604cd1c8e6c3edff85308e7f394673fd5ab79fcdfdecd2e757356e73302684406"}

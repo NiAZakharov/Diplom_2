@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"анжела.никонов@yahoo.com","name":"николай.ковалев"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDg3OWVkMjgwMDAxYjQ4ODkwYyIsImlhdCI6MTcyMzIxMTkxMSwiZXhwIjoxNzIzMjEzMTExfQ.CVMzS1CBVBuWJMyjekS5blcFPTXoC8fF8S-NhMbpW2A","refreshToken":"16dd6f423a6cb76e626499fa12a3c40c27d76b2b429f627c430877365018d664ad57584a56e6486d"}

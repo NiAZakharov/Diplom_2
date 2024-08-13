@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"роман.шилов@yandex.ru","name":"борис.ермакова"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDkyOWVkMjgwMDAxYjQ4ODkxYSIsImlhdCI6MTcyMzIxMTkyMiwiZXhwIjoxNzIzMjEzMTIyfQ.nZ3OLjtknLGrrQVoxaFLjro5urZmwmjw43YTo2kXQGM","refreshToken":"ab4cfb3e185d535ecb268bec8facfc32ea4046c4ff6ee0059837fab2eb8df5a0595b0765dae8e09c"}

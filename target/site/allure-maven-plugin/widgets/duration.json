@@ -1,0 +1,341 @@
+[ {
+  "uid" : "9b4b9bd4fba79f35",
+  "name" : "Запрос заказов с авторизацией",
+  "time" : {
+    "start" : 1723211913880,
+    "stop" : 1723211917262,
+    "duration" : 3382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47fbf5aca032b8d9",
+  "name" : "Создание пользователя с одним из отсутствующих параметров 5",
+  "time" : {
+    "start" : 1723211932060,
+    "stop" : 1723211933570,
+    "duration" : 1510
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93cef8828d57fd49",
+  "name" : "Попытка создать заказ без ингредиента",
+  "time" : {
+    "start" : 1723211910654,
+    "stop" : 1723211912251,
+    "duration" : 1597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b5c7164abc20b8c",
+  "name" : "Редактирование пользователя без авторизации 2",
+  "time" : {
+    "start" : 1723211948606,
+    "stop" : 1723211949897,
+    "duration" : 1291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da221c2b31981fb8",
+  "name" : "Редактирование пользователя 3",
+  "time" : {
+    "start" : 1723211958052,
+    "stop" : 1723211959872,
+    "duration" : 1820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "761f12e0991072c3",
+  "name" : "Редактирование пользователя без авторизации 5",
+  "time" : {
+    "start" : 1723211953021,
+    "stop" : 1723211954551,
+    "duration" : 1530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4ee649bc7789dd7",
+  "name" : "Успешное создание заказа",
+  "time" : {
+    "start" : 1723211907811,
+    "stop" : 1723211910650,
+    "duration" : 2839
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5664a579f796a554",
+  "name" : "Редактирование пользователя 1",
+  "time" : {
+    "start" : 1723211954555,
+    "stop" : 1723211956170,
+    "duration" : 1615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c685885c9eee5a62",
+  "name" : "Редактирование пользователя с истекшим токеном 2",
+  "time" : {
+    "start" : 1723211941164,
+    "stop" : 1723211942650,
+    "duration" : 1486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccef4bb667e07ee0",
+  "name" : "Не успешная авторизация",
+  "time" : {
+    "start" : 1723211919444,
+    "stop" : 1723211921061,
+    "duration" : 1617
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fb7bf3d6e28a622",
+  "name" : "Попытка создать существующего пользователя",
+  "time" : {
+    "start" : 1723211937962,
+    "stop" : 1723211939571,
+    "duration" : 1609
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c301b42cdd61676",
+  "name" : "Создание пользователя с одним из отсутствующих параметров 3",
+  "time" : {
+    "start" : 1723211929093,
+    "stop" : 1723211930526,
+    "duration" : 1433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49d30bdc915c2d7d",
+  "name" : "Редактирование пользователя 4",
+  "time" : {
+    "start" : 1723211959874,
+    "stop" : 1723211961370,
+    "duration" : 1496
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e67ea9a7a47a373",
+  "name" : "Создание заказа без авторизации",
+  "time" : {
+    "start" : 1723211904463,
+    "stop" : 1723211907779,
+    "duration" : 3316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f63915c8d3a13c99",
+  "name" : "Успешное создание пользователя",
+  "time" : {
+    "start" : 1723211936813,
+    "stop" : 1723211937960,
+    "duration" : 1147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "918591f3278ca4ed",
+  "name" : "Попытка создать заказ с существующим ингредиентом",
+  "time" : {
+    "start" : 1723211912256,
+    "stop" : 1723211913867,
+    "duration" : 1611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8365bd1db0266b85",
+  "name" : "Не успешная авторизация",
+  "time" : {
+    "start" : 1723211924253,
+    "stop" : 1723211925868,
+    "duration" : 1615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37d0c48bcc59165a",
+  "name" : "Создание пользователя с одним из отсутствующих параметров 6",
+  "time" : {
+    "start" : 1723211933573,
+    "stop" : 1723211935204,
+    "duration" : 1631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4c4041a21da3",
+  "name" : "Создание пользователя с одним из отсутствующих параметров 1",
+  "time" : {
+    "start" : 1723211925903,
+    "stop" : 1723211927509,
+    "duration" : 1606
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbcf21285ac89f28",
+  "name" : "Редактирование пользователя 2",
+  "time" : {
+    "start" : 1723211956173,
+    "stop" : 1723211958050,
+    "duration" : 1877
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b06b6adcfb978e4",
+  "name" : "Не успешная авторизация",
+  "time" : {
+    "start" : 1723211921063,
+    "stop" : 1723211922644,
+    "duration" : 1581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29c412570fb6f458",
+  "name" : "Редактирование пользователя с истекшим токеном 5",
+  "time" : {
+    "start" : 1723211945525,
+    "stop" : 1723211947064,
+    "duration" : 1539
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9793302efab9015",
+  "name" : "Успешная авторизация",
+  "time" : {
+    "start" : 1723211922647,
+    "stop" : 1723211924250,
+    "duration" : 1603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37d1bdc569c1f36f",
+  "name" : "Редактирование пользователя 5",
+  "time" : {
+    "start" : 1723211961379,
+    "stop" : 1723211962856,
+    "duration" : 1477
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bc0d5eee8c87acc",
+  "name" : "Редактирование пользователя без авторизации 3",
+  "time" : {
+    "start" : 1723211949899,
+    "stop" : 1723211951471,
+    "duration" : 1572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62a40a293c20f03a",
+  "name" : "Запрос заказов без авторизации",
+  "time" : {
+    "start" : 1723211917266,
+    "stop" : 1723211919435,
+    "duration" : 2169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e47cc8d16d6b678d",
+  "name" : "Создание пользователя с одним из отсутствующих параметров 2",
+  "time" : {
+    "start" : 1723211927512,
+    "stop" : 1723211929090,
+    "duration" : 1578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1129314a66edd273",
+  "name" : "Редактирование пользователя без авторизации 4",
+  "time" : {
+    "start" : 1723211951474,
+    "stop" : 1723211953018,
+    "duration" : 1544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56dca40f978c6e2e",
+  "name" : "Создание пользователя с одним из отсутствующих параметров 7",
+  "time" : {
+    "start" : 1723211935208,
+    "stop" : 1723211936810,
+    "duration" : 1602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "206b3ac0d0e9d07a",
+  "name" : "Создание пользователя с одним из отсутствующих параметров 4",
+  "time" : {
+    "start" : 1723211930530,
+    "stop" : 1723211932057,
+    "duration" : 1527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a02f3ae48534ce8",
+  "name" : "Редактирование пользователя с истекшим токеном 1",
+  "time" : {
+    "start" : 1723211939589,
+    "stop" : 1723211941161,
+    "duration" : 1572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6afaba6a5703436",
+  "name" : "Редактирование пользователя с истекшим токеном 3",
+  "time" : {
+    "start" : 1723211942653,
+    "stop" : 1723211944042,
+    "duration" : 1389
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "615d37a86b2e182",
+  "name" : "Редактирование пользователя с истекшим токеном 4",
+  "time" : {
+    "start" : 1723211944045,
+    "stop" : 1723211945523,
+    "duration" : 1478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "828508301ad1472",
+  "name" : "Редактирование пользователя без авторизации 1",
+  "time" : {
+    "start" : 1723211947068,
+    "stop" : 1723211948604,
+    "duration" : 1536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

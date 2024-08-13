@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"николаи.тарасова@yahoo.com","name":"виктория.никитина"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDdmOWVkMjgwMDAxYjQ4ODkwMSIsImlhdCI6MTcyMzIxMTkwMywiZXhwIjoxNzIzMjEzMTAzfQ.5ScwCc9G0o21C1vYIO1WVZvLY0dfvAjV4KsaZosrvlA","refreshToken":"c9fcb88cee650dcf599ee7b73f98208b7b8dbffba7cc3b7a16e72765707fbfa93988fd624bb5deaa"}

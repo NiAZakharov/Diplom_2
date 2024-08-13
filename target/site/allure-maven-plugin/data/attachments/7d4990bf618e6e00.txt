@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"раиса.красильникова@ya.ru","name":"артём.меркушев"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDcyOWVkMjgwMDAxYjQ4ODhlZiIsImlhdCI6MTcyMzIxMTg5MCwiZXhwIjoxNzIzMjEzMDkwfQ.MdJIUMqo05AT1Ayxfl6D7xEDCZ6yoz71v42zDiz8JcI","refreshToken":"0e2f93ac198a3055654891d7d4b26c9a6750910f53e49521da6d500ae98126066474f3e35463d076"}

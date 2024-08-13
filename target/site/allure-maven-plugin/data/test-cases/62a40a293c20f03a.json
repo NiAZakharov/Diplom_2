@@ -1,0 +1,381 @@
+{
+  "uid" : "62a40a293c20f03a",
+  "name" : "Запрос заказов без авторизации",
+  "fullName" : "order.GetOrderTest.getOrderWithoutTokenTest",
+  "historyId" : "c2512a9774a4a7d046158fb51bfbfd76",
+  "time" : {
+    "start" : 1723211917266,
+    "stop" : 1723211919435,
+    "duration" : 2169
+  },
+  "description" : "Запрос заказа без авторизации",
+  "descriptionHtml" : "<p>Запрос заказа без авторизации</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getActiveToken",
+    "time" : {
+      "start" : 1723211917266,
+      "stop" : 1723211917767,
+      "duration" : 501
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание нового уникального пользователя",
+      "time" : {
+        "start" : 1723211917266,
+        "stop" : 1723211917766,
+        "duration" : 500
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вызов метода создания пользователя",
+        "time" : {
+          "start" : 1723211917267,
+          "stop" : 1723211917766,
+          "duration" : 499
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fb5a788ac41c1efa",
+          "name" : "Request Method",
+          "source" : "fb5a788ac41c1efa.txt",
+          "type" : "text/plain",
+          "size" : 4
+        }, {
+          "uid" : "b3a4acf5ff079414",
+          "name" : "Request URI",
+          "source" : "b3a4acf5ff079414.txt",
+          "type" : "text/plain",
+          "size" : 59
+        }, {
+          "uid" : "9a3e9e1bcd07bf52",
+          "name" : "Request Headers",
+          "source" : "9a3e9e1bcd07bf52.txt",
+          "type" : "text/plain",
+          "size" : 105
+        }, {
+          "uid" : "833a414dd07edd71",
+          "name" : "Request Body",
+          "source" : "833a414dd07edd71.txt",
+          "type" : "text/plain",
+          "size" : 114
+        }, {
+          "uid" : "26ffd0f9b7e53ce8",
+          "name" : "Response Status Code",
+          "source" : "26ffd0f9b7e53ce8.txt",
+          "type" : "text/plain",
+          "size" : 3
+        }, {
+          "uid" : "f79911cd1c6ca1a",
+          "name" : "Response Headers",
+          "source" : "f79911cd1c6ca1a.txt",
+          "type" : "text/plain",
+          "size" : 885
+        }, {
+          "uid" : "e80be114eb156b02",
+          "name" : "Response Body",
+          "source" : "e80be114eb156b02.txt",
+          "type" : "text/plain",
+          "size" : 407
+        } ],
+        "parameters" : [ {
+          "name" : "promt",
+          "value" : "Вызов метода создания пользователя"
+        }, {
+          "name" : "obj",
+          "value" : "User(email=андреи.михеева@yandex.ru, password=ehgn33urg8, name=валерий.корнилов, createdAt=null, updatedAt=null)"
+        }, {
+          "name" : "urlPath",
+          "value" : "/auth/register"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 7,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 7,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 2,
+    "hasContent" : true
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1723211913878,
+      "stop" : 1723211913879,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Запрос заказа без авторизации",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запрос заказов без авторизации",
+      "time" : {
+        "start" : 1723211917767,
+        "stop" : 1723211918087,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a80a5033c655699f",
+        "name" : "Request Method",
+        "source" : "a80a5033c655699f.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "a516474753fd244a",
+        "name" : "Request URI",
+        "source" : "a516474753fd244a.txt",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "6c8790bcc41cf783",
+        "name" : "Request Headers",
+        "source" : "6c8790bcc41cf783.txt",
+        "type" : "text/plain",
+        "size" : 105
+      }, {
+        "uid" : "7849dd84e612d8e",
+        "name" : "Response Status Code",
+        "source" : "7849dd84e612d8e.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "9020a0992cc4c9f5",
+        "name" : "Response Headers",
+        "source" : "9020a0992cc4c9f5.txt",
+        "type" : "text/plain",
+        "size" : 653
+      }, {
+        "uid" : "7bf18b41aee91c56",
+        "name" : "Response Body",
+        "source" : "7bf18b41aee91c56.txt",
+        "type" : "text/plain",
+        "size" : 54
+      } ],
+      "parameters" : [ {
+        "name" : "promt",
+        "value" : "Запрос заказов без авторизации"
+      }, {
+        "name" : "urlPath",
+        "value" : "/orders"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 6,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "expectedStatusCode 401",
+      "time" : {
+        "start" : 1723211918088,
+        "stop" : 1723211918790,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b829e163944641e",
+        "name" : "Response Status Code",
+        "source" : "9b829e163944641e.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "c0146db24b49790d",
+        "name" : "Response Headers",
+        "source" : "c0146db24b49790d.txt",
+        "type" : "text/plain",
+        "size" : 653
+      }, {
+        "uid" : "aadc387efa561404",
+        "name" : "Response Body",
+        "source" : "aadc387efa561404.txt",
+        "type" : "text/plain",
+        "size" : 67
+      } ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@c0b10ae"
+      }, {
+        "name" : "expectedStatusCode",
+        "value" : "401"
+      }, {
+        "name" : "bodySingleKey1",
+        "value" : "success"
+      }, {
+        "name" : "bodySingleKey2",
+        "value" : "message"
+      }, {
+        "name" : "expectedValue1",
+        "value" : "false"
+      }, {
+        "name" : "expectedValue2",
+        "value" : "You should be authorised"
+      }, {
+        "name" : "allurePromt",
+        "value" : "Проверка ответа при создании дубля"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "deleteUser",
+    "time" : {
+      "start" : 1723211918790,
+      "stop" : 1723211919435,
+      "duration" : 645
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Удаление пользователя/Очистка данных",
+      "time" : {
+        "start" : 1723211918790,
+        "stop" : 1723211919435,
+        "duration" : 645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a3089b323e81664",
+        "name" : "Request Method",
+        "source" : "9a3089b323e81664.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "e3ada19c7e69ea41",
+        "name" : "Request URI",
+        "source" : "e3ada19c7e69ea41.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "c85e4ba5a8a67c4f",
+        "name" : "Request Headers",
+        "source" : "c85e4ba5a8a67c4f.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "4bd92f377f3ae77e",
+        "name" : "Request Body",
+        "source" : "4bd92f377f3ae77e.txt",
+        "type" : "text/plain",
+        "size" : 90
+      }, {
+        "uid" : "81ed4b07c7632567",
+        "name" : "Response Status Code",
+        "source" : "81ed4b07c7632567.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "56f1b03be16428bf",
+        "name" : "Response Headers",
+        "source" : "56f1b03be16428bf.txt",
+        "type" : "text/plain",
+        "size" : 671
+      }, {
+        "uid" : "c9647b1c8cf8b54a",
+        "name" : "Response Body",
+        "source" : "c9647b1c8cf8b54a.txt",
+        "type" : "text/plain",
+        "size" : 54
+      } ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@6ee0ef34"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 7,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1723211919437,
+      "stop" : 1723211919437,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0SPD60R3"
+  }, {
+    "name" : "thread",
+    "value" : "11332@LAPTOP-0SPD60R3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "order.GetOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "order.GetOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrderWithoutTokenTest"
+  }, {
+    "name" : "suite",
+    "value" : "Получение заказа"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62a40a293c20f03a.json",
+  "parameterValues" : [ ]
+}

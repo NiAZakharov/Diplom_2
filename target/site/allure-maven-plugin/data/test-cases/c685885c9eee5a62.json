@@ -1,0 +1,342 @@
+{
+  "uid" : "c685885c9eee5a62",
+  "name" : "Редактирование пользователя с истекшим токеном 2",
+  "fullName" : "user.EditUserTest.editUserWithExpTokenTest",
+  "historyId" : "8ba88e2890ef9ffa909f67ecf583c224",
+  "time" : {
+    "start" : 1723211941164,
+    "stop" : 1723211942650,
+    "duration" : 1486
+  },
+  "description" : "Редактирование пользователя без авторизации",
+  "descriptionHtml" : "<p>Редактирование пользователя без авторизации</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getActiveToken",
+    "time" : {
+      "start" : 1723211941164,
+      "stop" : 1723211941650,
+      "duration" : 486
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание нового уникального пользователя",
+      "time" : {
+        "start" : 1723211941164,
+        "stop" : 1723211941650,
+        "duration" : 486
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вызов метода создания пользователя",
+        "time" : {
+          "start" : 1723211941165,
+          "stop" : 1723211941650,
+          "duration" : 485
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "53d627a37af59caf",
+          "name" : "Request Method",
+          "source" : "53d627a37af59caf.txt",
+          "type" : "text/plain",
+          "size" : 4
+        }, {
+          "uid" : "4952245de3d0f74f",
+          "name" : "Request URI",
+          "source" : "4952245de3d0f74f.txt",
+          "type" : "text/plain",
+          "size" : 59
+        }, {
+          "uid" : "23858fc029acd84f",
+          "name" : "Request Headers",
+          "source" : "23858fc029acd84f.txt",
+          "type" : "text/plain",
+          "size" : 105
+        }, {
+          "uid" : "92792122fa570db2",
+          "name" : "Request Body",
+          "source" : "92792122fa570db2.txt",
+          "type" : "text/plain",
+          "size" : 111
+        }, {
+          "uid" : "5eae5da55c1eadfb",
+          "name" : "Response Status Code",
+          "source" : "5eae5da55c1eadfb.txt",
+          "type" : "text/plain",
+          "size" : 3
+        }, {
+          "uid" : "508d3277d5f86493",
+          "name" : "Response Headers",
+          "source" : "508d3277d5f86493.txt",
+          "type" : "text/plain",
+          "size" : 883
+        }, {
+          "uid" : "d3e1f277021a1d44",
+          "name" : "Response Body",
+          "source" : "d3e1f277021a1d44.txt",
+          "type" : "text/plain",
+          "size" : 405
+        } ],
+        "parameters" : [ {
+          "name" : "promt",
+          "value" : "Вызов метода создания пользователя"
+        }, {
+          "name" : "obj",
+          "value" : "User(email=юрии.кудрявцев@yahoo.com, password=ll19inanq, name=аркадий.уварова, createdAt=null, updatedAt=null)"
+        }, {
+          "name" : "urlPath",
+          "value" : "/auth/register"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 7,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 7,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 2,
+    "hasContent" : true
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1723211939575,
+      "stop" : 1723211939575,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Редактирование пользователя без авторизации",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Отправка PATH Запроса с просроченным токеном",
+      "time" : {
+        "start" : 1723211941651,
+        "stop" : 1723211941956,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c344031851a8bd0b",
+        "name" : "Request Method",
+        "source" : "c344031851a8bd0b.txt",
+        "type" : "text/plain",
+        "size" : 5
+      }, {
+        "uid" : "3f220fc4ec2857b5",
+        "name" : "Request URI",
+        "source" : "3f220fc4ec2857b5.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "7b3f8b59def06fa2",
+        "name" : "Request Headers",
+        "source" : "7b3f8b59def06fa2.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "d392a0f4b07e5da4",
+        "name" : "Request Body",
+        "source" : "d392a0f4b07e5da4.txt",
+        "type" : "text/plain",
+        "size" : 89
+      }, {
+        "uid" : "37d8fe2f1f606a4a",
+        "name" : "Response Status Code",
+        "source" : "37d8fe2f1f606a4a.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "46c737f1ee5d6add",
+        "name" : "Response Headers",
+        "source" : "46c737f1ee5d6add.txt",
+        "type" : "text/plain",
+        "size" : 655
+      }, {
+        "uid" : "1b7e5605524841ee",
+        "name" : "Response Body",
+        "source" : "1b7e5605524841ee.txt",
+        "type" : "text/plain",
+        "size" : 41
+      } ],
+      "parameters" : [ {
+        "name" : "promt",
+        "value" : "Отправка PATH Запроса с просроченным токеном"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjJhYTg1OWVkMjgwMDAxYjQ4NjFhMiIsImlhdCI6MTcyMjk4NTA5MywiZXhwIjoxNzIyOTg2MjkzfQ.JqmB9TkYxaxqx4X-2NrEvVGU8aSTrhxIIo6B9ms1w68"
+      }, {
+        "name" : "obj",
+        "value" : "User(email=виктор.колесникова@yandex.ru, password=, name=go2l3siu, createdAt=null, updatedAt=null)"
+      }, {
+        "name" : "urlPath",
+        "value" : "/auth/user"
+      }, {
+        "name" : "statusCode",
+        "value" : "403"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 7,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "deleteUser",
+    "time" : {
+      "start" : 1723211941956,
+      "stop" : 1723211942650,
+      "duration" : 694
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Удаление пользователя/Очистка данных",
+      "time" : {
+        "start" : 1723211941956,
+        "stop" : 1723211942650,
+        "duration" : 694
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4abaa5402fa25fca",
+        "name" : "Request Method",
+        "source" : "4abaa5402fa25fca.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "968d3bfe1820b3ad",
+        "name" : "Request URI",
+        "source" : "968d3bfe1820b3ad.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "76d6ce8f9aa2963",
+        "name" : "Request Headers",
+        "source" : "76d6ce8f9aa2963.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "db95dce5f5183f4c",
+        "name" : "Request Body",
+        "source" : "db95dce5f5183f4c.txt",
+        "type" : "text/plain",
+        "size" : 88
+      }, {
+        "uid" : "4fb0becfca88c57c",
+        "name" : "Response Status Code",
+        "source" : "4fb0becfca88c57c.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "e97acd59f58b8d64",
+        "name" : "Response Headers",
+        "source" : "e97acd59f58b8d64.txt",
+        "type" : "text/plain",
+        "size" : 663
+      }, {
+        "uid" : "24b310b90d0ae688",
+        "name" : "Response Body",
+        "source" : "24b310b90d0ae688.txt",
+        "type" : "text/plain",
+        "size" : 54
+      } ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.RestAssuredResponseImpl@2c50f1ab"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 7,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1723211962859,
+      "stop" : 1723211962859,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0SPD60R3"
+  }, {
+    "name" : "thread",
+    "value" : "11332@LAPTOP-0SPD60R3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "user.EditUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "user.EditUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "editUserWithExpTokenTest"
+  }, {
+    "name" : "suite",
+    "value" : "Редактирование пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c685885c9eee5a62.json",
+  "parameterValues" : [ ]
+}

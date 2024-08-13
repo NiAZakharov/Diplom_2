@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"ульяна.миронова@ya.ru","name":"ярослав.коновалова"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDc0OWVkMjgwMDAxYjQ4ODhmMiIsImlhdCI6MTcyMzIxMTg5MiwiZXhwIjoxNzIzMjEzMDkyfQ.gp2btZwC-qnX-MXLF4Jwy928QGIDklCY_FBt6DvZY8A","refreshToken":"6859ae762f4c3ae80f80f6442afba4111b394ff469f2d4a53c38823416ab827c86a8148bd9394aa4"}

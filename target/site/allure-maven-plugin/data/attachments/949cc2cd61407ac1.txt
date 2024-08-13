@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"егор.панфилов@mail.ru","name":"анатолий.лыткин"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDg5OWVkMjgwMDAxYjQ4ODkwZSIsImlhdCI6MTcyMzIxMTkxMywiZXhwIjoxNzIzMjEzMTEzfQ.GpASQ6rpg1DXgDieQis303FUuYdwSFyzUTeIR0VIKW0","refreshToken":"182491f31071cb082b3c6f6e7b0e8bfd269456a5a10460f43fa483315d780a7481729c4caba69500"}

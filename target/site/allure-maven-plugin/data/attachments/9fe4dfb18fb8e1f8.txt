@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"михаил.юдина@hotmail.com","name":"ксения.некрасов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMDhlOWVkMjgwMDAxYjQ4ODkxNCIsImlhdCI6MTcyMzIxMTkxOCwiZXhwIjoxNzIzMjEzMTE4fQ.FKFUhWJcXwhvTkN5jcxAC3Eh1pofnVBV_YOu-XszXfk","refreshToken":"430c6caa7668df646db12331d6b5cc2281204e336753db0bbc585ea1f791b2d5b6300aff6b45d7a1"}

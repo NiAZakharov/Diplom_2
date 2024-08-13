@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"леонид.андреева@yandex.ru","name":"даниил.гаврилов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjYyMGE4OWVkMjgwMDAxYjQ4ODkzNiIsImlhdCI6MTcyMzIxMTk0NCwiZXhwIjoxNzIzMjEzMTQ0fQ.ygwAN41UaeS9UBh75Rjv8B_s__L0GojhEMyFXr10XoI","refreshToken":"2f132023e07bfd60bc6e7b2c9a13bfb791bd7095cb0ee58977005683e1e195158db33c61c870492b"}
