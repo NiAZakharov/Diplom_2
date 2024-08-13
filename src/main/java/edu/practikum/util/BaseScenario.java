@@ -22,8 +22,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class BaseScenario {
 
     protected static final ConnectionProperty CONNECTION_PROPERTIES = PropertyLoader.loadProperties();
-    private final static String INSUFFICIENT_DATA_MESSAGE = "Недостаточно данных для входа";
-    private final static Faker faker = new Faker(new Locale("ru_Ru", "RU"));
+    private final static Faker FAKER = new Faker(new Locale("ru_Ru", "RU"));
 
     protected static RequestSpecification requestSpecification;
 
@@ -49,9 +48,9 @@ public class BaseScenario {
     public Response createUniqueUser() {
         User newUser = User
                 .builder()
-                .email(faker.internet().emailAddress())
-                .password(faker.internet().password())
-                .name(faker.name().username())
+                .email(FAKER.internet().emailAddress())
+                .password(FAKER.internet().password())
+                .name(FAKER.name().username())
                 .build();
         return sendPostRequest("Вызов метода создания пользователя", newUser, CONNECTION_PROPERTIES.getUserRegisterPath());
     }

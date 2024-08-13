@@ -1,7 +1,6 @@
 package order;
 
 import edu.practikum.dto.order.OrderForUserResponse;
-import edu.practikum.dto.user.UserResponse;
 import edu.practikum.util.BaseScenario;
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
@@ -23,15 +22,12 @@ public class GetOrderTest extends BaseScenario {
     private final static String API_PATH = CONNECTION_PROPERTIES.getOrderPath();
     private String token;
     private Response responseBefore;
-    private UserResponse userResponseBefore;
-
 
     @BeforeEach
     public void getActiveToken() {
         //Создадим стандартного пользователя и сразу получим его токен. Т.к. больше этот user в тесте не нужен
         responseBefore = createUniqueUser();
         token = responseBefore.getHeader("Authorization");
-        userResponseBefore = responseBefore.getBody().as(UserResponse.class);
     }
 
     @AfterEach
